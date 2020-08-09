@@ -4,6 +4,11 @@ cd ~/
 sudo rm -r /content/ya_code/config_pmos
 sudo rm -r /content/ya_code/local/var/pmbootstrap
 git clone https://github.com/clamor95/postmarket_asus_tf201.git ~/config_pmos
+echo "!!! Set path to /content/ya_code/local/var/pmbootstrap !!!"
+echo "!!! Set path to /content/ya_code/local/var/pmbootstrap !!!"
+echo "!!! Set path to /content/ya_code/local/var/pmbootstrap !!!"
+echo "!!! Set path to /content/ya_code/local/var/pmbootstrap !!!"
+echo "!!! Set path to /content/ya_code/local/var/pmbootstrap !!!"
 pmbootstrap init
 cd ~/local/var/pmbootstrap/cache_git/pmaports
 cd firmware
