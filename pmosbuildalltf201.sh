@@ -10,17 +10,13 @@ echo "!!! Set path to /content/ya_code/local/var/pmbootstrap !!!"
 echo "!!! Set path to /content/ya_code/local/var/pmbootstrap !!!"
 echo "!!! Set path to /content/ya_code/local/var/pmbootstrap !!!"
 pmbootstrap init
-cd ~/local/var/pmbootstrap/cache_git/pmaports
-cd firmware
-cp -r ~/config_pmos/firmware-asus-tf201 ./
-cd ../device/testing/
-cp -r ~/config_pmos/device-asus-tf201 ./
-cp -r ~/config_pmos/linux-asus-tf201 ./
-cd ~/
+cp -r /content/ya_code/config_pmos/firmware-asus-tf201 /content/ya_code/local/var/pmbootstrap/cache_git/pmaports/firmware
+cp -r /content/ya_code/config_pmos/device-asus-tf201 /content/ya_code/local/var/pmbootstrap/cache_git/pmaports/device/testing/
+cp -r /content/ya_code/config_pmos/linux-asus-tf201 /content/ya_code/local/var/pmbootstrap/cache_git/pmaports/device/testing/
 pmbootstrap checksum device-asus-tf201
 pmbootstrap checksum linux-asus-tf201
 pmbootstrap checksum firmware-asus-tf201
 pmbootstrap install --android-recovery-zip
-pmbootstrap export
+pmbootstrap export /content/ya_code/export/
 pmbootstrap install
-pmbootstrap export
+pmbootstrap export /content/ya_code/export/
