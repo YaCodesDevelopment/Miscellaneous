@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 pmbootstrap shutdown
-cd ~/
 sudo rm -r /content/ya_code/config_pmos
 sudo rm -r /content/ya_code/local/var/pmbootstrap
 git clone https://github.com/clamor95/postmarket_asus_tf201.git ~/config_pmos
