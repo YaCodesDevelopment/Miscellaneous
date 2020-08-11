@@ -16,6 +16,6 @@ pmbootstrap checksum device-asus-tf201
 pmbootstrap checksum linux-asus-tf201
 pmbootstrap checksum firmware-asus-tf201
 pmbootstrap install --android-recovery-zip
-pmbootstrap export /content/ya_code/export/
+pmbootstrap export /content/export/
 pmbootstrap install
-pmbootstrap export /content/ya_code/export/
+pmbootstrap export /content/export/
