@@ -12,6 +12,6 @@ pmbootstrap checksum device-htc-m8
 pmbootstrap checksum linux-htc-m8
 pmbootstrap checksum firmware-htc-m8
 pmbootstrap install --android-recovery-zip
-pmbootstrap export /content/export
+pmbootstrap export
 pmbootstrap install
-pmbootstrap export /content/export
+pmbootstrap export
